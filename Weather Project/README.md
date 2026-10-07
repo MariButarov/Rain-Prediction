@@ -1,4 +1,4 @@
-# London vs Seattle Precipitation Rain
+# Comparing Precipitation Patterns in Seattle and London (2018–2022)
 
 
 This project compares precipitation patterns between Seattle, Washington, and London, United Kingdom, using daily weather data from January 1, 2018, to December 31, 2022. The purpose of this analysis is to explore how precipitation differs between the two cities and identify patterns and trends in their precipitation over the five-year period.
