@@ -49,7 +49,7 @@ After preprocessing, exploratory data analysis is performed to compare precipita
 
 The data cleaning and analysis are performed in:
 
-Precipitation.ipynb
+Weather_data.ipynb
 
 ---
 
