@@ -29,7 +29,8 @@ This project analyzes and compares precipitation patterns in Seattle and London 
 
 ## Data
 
-- **Source:** https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND 
+- **Source:** https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND
+- https://github.com/brian-fischer/DATA-5100/tree/main/weather
 - **Description:** The final dataset contains 3,652 daily weather observations for London and Seattle from January 2018 through December 2022. It includes four features: date, city, precipitation, and day of the year. Precipitation is measured in inches and stored as numerical data, while the date is stored in datetime format and the city identifies the location of each observation.
 - **License:** (if applicable)
 
@@ -63,13 +64,15 @@ clean_seattle_london_weather.csv
 
 ## Results
 
-The analysis showed that Seattle and London received very similar total precipitation between 2018 and 2022. London recorded a total of approximately 205.615 inches of precipitation, while Seattle recorded approximately 206.832 inches.
+The analysis showed that Seattle and London received very similar amounts of total precipitation between 2018 and 2022. London recorded approximately 205.615 inches of precipitation, while Seattle recorded 206.832 inches.
 
-However, the frequency of precipitation was noticeably different. Out of 1,826 days, London had 634 days with precipitation greater than 0.0 inches, representing approximately 34.7% of the days. Seattle had 999 days with precipitation greater than 0.0 inches, representing approximately 54.7% of the days.
+However, the frequency of precipitation was noticeably different. Out of 1,826 days, London experienced 634 days with precipitation, representing approximately 34.7% of the days. Seattle experienced 999 days with precipitation, representing approximately 54.7% of the days.
 
 The yearly comparison also revealed differences between the two cities. London received more precipitation in 2018 and 2019, with 2019 having the highest annual precipitation in the dataset. Seattle received more precipitation in 2020, 2021, and 2022.
 
-These findings show that although London and Seattle received nearly the same total amount of precipitation over the five-year period, Seattle experienced precipitation much more frequently than London. This suggests that the total amount of precipitation alone does not fully describe the differences in precipitation patterns between the two cities.
+The monthly comparison showed that Seattle generally received more precipitation during the winter months, while London tended to receive more during the other seasons.
+
+These findings show that although London and Seattle received nearly the same total amount of precipitation over the five-year period, Seattle experienced precipitation much more frequently. This suggests that the total amount of precipitation alone does not fully describe the differences in precipitation patterns between the two cities.
 
 ---
 
